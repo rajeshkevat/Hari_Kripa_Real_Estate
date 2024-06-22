@@ -1,0 +1,65 @@
+  <!-- HTML to write -->
+  <a href="#" data-bs-toggle="tooltip" data-bs-toggle="tooltip" data-bs-html="true" title="<span> <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p> <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p> <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p> </span>">Hover over me</a>
+
+
+<span data-bs-customClass="custom-tooltip" data-bs-toggle="tooltip" data-bs-html="true" title="The tooltip text<br/>Extra text">
+  STUFF
+</span>
+
+<span type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with HTML
+</span>
+
+
+
+  <!-- Generated markup by the plugin -->
+  <div class="tooltip bs-tooltip-top" role="tooltip"> 
+    <div class="tooltip-arrow"></div>
+    <span>
+      <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p>
+      <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p>
+      <strong>Remar1:</strong><p>The generated markup of a tooltip is rather simple, though it does require a positionThe generated markup of a tooltip is rather simple, though it does require a position</p>
+    </span>
+  </div>
+
+
+    <!-- HTML to write -->
+    <a href="#" data-bs-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
+
+
+    $("* [rel='tooltip']").toolti
+
+    $(document).ready(function() {
+
+$("* [rel='tooltip']").tooltip({
+   html: true, 
+   placement: 'bottom'
+});
+
+});
+
+
+<a href="#" rel="tooltip" title="Title Here"> I am Here</a>
+</script>
+
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl, {
+    'customClass': 'custom-tooltip'
+  })
+})
+
+
+
+.custom-tooltip.tooltip > .tooltip-inner
+{
+    text-align: left;
+    max-width: 500px;
+}
+
+
+<span data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-html="true" title="The tooltip text<br/>Extra text">
+  STUFF
+</span>
+
