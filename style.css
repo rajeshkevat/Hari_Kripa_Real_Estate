@@ -460,6 +460,12 @@ color: black;
     
 }
 
+@media only screen and ( max-width: 370px) {
+     .items{
+        width: 250px;
+     }
+}
+
 .fcontent,p{
     line-height: 17px;
 }
