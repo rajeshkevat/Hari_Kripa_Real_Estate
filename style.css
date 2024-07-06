@@ -510,9 +510,6 @@ color: rgb(236, 177, 109);
             
         }
 
-
-
-       
           #navbarSupportedContent{
             display: none;
           }
@@ -534,10 +531,9 @@ color: rgb(236, 177, 109);
                 margin-left:8px;
                 margin-right:8px;
             }
-           
-          
-           
-            
+         .explore{
+            font-size: 25px; 
+        }      
     }
 
 
