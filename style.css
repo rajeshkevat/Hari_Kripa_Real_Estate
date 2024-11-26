@@ -18,10 +18,10 @@
 }
 
 
-/* .navbar-collapse{
+.navbar-collapse{
     flex-grow: 0;
 
-} */
+}
 
 .container-fluid.my-container-fluid{
     justify-content: center;
